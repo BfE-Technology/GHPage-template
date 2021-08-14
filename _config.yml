@@ -1,0 +1,34 @@
+# Site settings
+title: Tech@BfE
+description: Technology at Bridges for Enterprise
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Tech@BfE
+user_title: Social Impact | Technology | Entrepreneurship
+email: technology.recruitment@bridgesforenterprise.com
+github_username:  BfE-Technology
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+# Social icons displayed in footer
+social:
+    email:          technology.recruitment@bridgesforenterprise.com
+    website:        https://www.bridgesforenterprise.com
+    facebook:       https://www.facebook.com/BridgesforEnterprise/
+    flickr:
+    dribbble:
+    github:         https://github.com/BfE-Technology
+    googleplus:
+    instagram:      https://www.instagram.com/bfe.global/
+    linkedin:       https://www.linkedin.com/company/bridges-for-enterprise/
+    pinterest:
+    twitter:        https://twitter.com/bfeglobal
+    vimeo:          
+    youtube:        https://www.youtube.com/channel/UC6LhJnDH9UwlMhZLQShEl0A
+    medium:         https://medium.com/bridges-for-enterprise
+    
+exclude: ['package.json', 'src' , 'node_modules']
