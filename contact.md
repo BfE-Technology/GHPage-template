@@ -9,9 +9,9 @@ layout: subpage
 
 # Contact
 
-For any inquiry related to BfE Technology, please email <a href="mailto:technology@bridgesforenterprise.com" target="_noblank">technology@bridgesforenterprise.com</a>. 
+For any inquiry related to XXX, please email <a href="mailto:TODO" target="_noblank">email</a>. 
 
-For more general inquiries, please visit <a href="https://www.bridgesforenterprise.com/faq/">the FAQ page</a> on BfE's website, where you can find the email corresponding to the nature of your inquiry.
+For more general inquiries, please visit <a href="website">the FAQ page</a>.
 
 <br>
 <br>
