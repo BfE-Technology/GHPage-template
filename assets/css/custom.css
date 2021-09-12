@@ -1,3 +1,8 @@
+body {
+  display: block;
+  margin: 0px;
+}
+
 /* column */
 
 .columns {
@@ -11,26 +16,6 @@
     height: 500px;
     margin-top: -20px;
   }
-
-/* column with image */
-
-.columns_img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  Width: 100%;
-  }
-  .left {
-    flex: 40%;
-    height: 500px;
-    margin-top: -20px;
-  }
-  .right {
-    flex: 60%;
-    height: 500px;
-    margin-top: -20px;
-  }
-
 
 /* bfe footer */
 
@@ -51,4 +36,16 @@ margin: 10px;
   padding: 20px;
   background-color: rgb(14, 4, 97);
   color: white;
+}
+
+/* button */
+
+.read_more_btn{
+  padding: 15px 60px;
+  background-color: black;
+  color: bisque;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
 }

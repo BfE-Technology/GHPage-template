@@ -1,0 +1,32 @@
+<style>
+.columns_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  Width: 100%;
+  }
+  .left {
+    flex: {{ include.left_flex }};
+    height: 500px;
+    margin-top: -20px;
+  }
+  .right {
+    flex: {{ include.right_flex }};
+    height: 500px;
+    margin-top: -20px;
+  }
+</style>
+
+<div class="columns_img" >
+  <div class="column_img left" style="background-color:#aaa;">
+    <h2>Some img..</h2> 
+    <img src="assets/img/background.jpg" style="
+    width: 100px;
+    height: 100px;">
+    <button class="read_more_btn">Read More</button>
+  </div>
+  <div class="column_img right" style="background-color:#bbb;">
+    <h2>Some title..</h2>
+    <p>Some text..</p>
+  </div>
+</div>
