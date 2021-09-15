@@ -1,6 +1,6 @@
 ---
 layout: main-layout
-
+navbar: true
 ---
 
 {% include cover.html %} 

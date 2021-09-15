@@ -2,7 +2,11 @@
 <html lang="en">
 
 {% include head.html %} 
+
+{% if page.navbar == true %}
 {% include nav_responsive.html file="note.md" %}
+{% endif %}
+
 {% include title.html %}
 
 <body>
