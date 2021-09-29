@@ -10,7 +10,7 @@ icon: assets/img/bfe_logo.svg
 year: 2021
 
 nav:
-  FAQ:
+  HOME:
   subnav1: 
     title: Get Involved
     url:

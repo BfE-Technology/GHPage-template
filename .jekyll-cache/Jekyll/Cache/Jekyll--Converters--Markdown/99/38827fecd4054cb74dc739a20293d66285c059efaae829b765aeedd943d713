@@ -1,0 +1,191 @@
+I"È<div>
+  <img src="assets/img/background.jpg" style="position: relative; margin: 0; width: 100%; height: 100%" />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+<div style="background-image:url('assets/img/idea.jpg'); color:white;   background-size: auto;  background-position: 100% 100%;z-index:0; position: relative; margin-top: -8px;" id="who-we-are">
+  <div style="
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      z-index: -1;
+      opacity: 0.8;
+    "></div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div style="padding: 10px">
+    <h2>Who we are</h2>
+    <div>
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;p&gt;&lt;zero-md src="text/note.md"&gt;&lt;/zero-md&gt;&lt;/p&gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt; &lt;br &gt;
+&lt;/div&gt;
+</code></pre></div>      </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+<style>
+
+  div#column {
+    float: left;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 634px;
+  }
+
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="row">
+  <div class="left" id="column" style="background-color:red;">
+    <div style="padding: 10px">
+      <h2>Column 1</h2>
+      <p><zero-md src="text/note.md"></zero-md></p>
+    </div>
+  </div>
+  <div class="right" id="column" style="background-color: #bbb">
+    <div style="padding: 10px">
+      <h2>Column 2</h2>
+      <p><zero-md src="text/note.md"></zero-md></p>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+<style>
+
+  div#column {
+    float: left;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 634px;
+  }
+
+  .links {
+    width: 40%;
+  }
+
+  .reichts {
+    width: 60%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .links {
+      width: 100%;
+    }
+    .reichts {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="row">
+  <div class="links" id="column" style="background-color: #aaa">
+    <div style="padding: 10px">
+      <h2>Some img..</h2>
+      <img src="assets/img/background.jpg" style="width: 100px; height: 100px" />
+    </div>
+  </div>
+  <div class="reichts" id="column" style="background-color: #bbb">
+    <div style="padding: 10px">
+      <h2>Some title..</h2>
+      <p><zero-md src="text/note.md"></zero-md></p>
+      <button class="read_more_btn">Read More</button>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+<div style="background-image:url('assets/img/smile-entrepreneur.jpg'); color:white;   background-size: auto;  background-position: 60% 15%;z-index:0; position: relative; margin-bottom: -20px;" class="force-white-link">
+  <div style="
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      background-color: black;
+      z-index: -1;
+      opacity: 0.6;
+    "></div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div style="padding: 10px">
+    <h2>Join us today</h2>
+
+    <div>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;p&gt;&lt;zero-md src="text/note.md"&gt;&lt;/zero-md&gt;&lt;/p&gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+  &lt;br &gt;
+&lt;/div&gt;
+</code></pre></div>        </div>
+      </div>
+</div>
+ 
+</div></div>
+:ET

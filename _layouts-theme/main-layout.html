@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  {% include head.html %}
+  {% if page.navbar == true %}
+  <!-- {% include nav_responsive.html file="text/note.md" %} -->
+  {% include nav_test.html file="text/note.md" %}
+  {% endif %} 
+  {% include title.html %}
 
-{% include head.html %} 
-
-{% if page.navbar == true %}
-{% include nav_responsive.html file="note.md" %}
-{% endif %}
-
-{% include title.html %}
-
-<body>
-
-{{ content }}
-{% include footer.html %}
-
-</body>
+  <body>
+    {{ content }} 
+    {% include footer.html %}
+  </body>
+</html>
