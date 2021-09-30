@@ -1,4 +1,4 @@
-I"ä<div>
+I"\<div>
   <img src="assets/img/background.jpg" style="position: relative; margin: 0; width: 100%; height: 100%" />
 </div>
 
@@ -21,36 +21,36 @@
   <br />
   <div style="padding: 10px">
     <h2>Who We Are</h2>
-    <div>
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;p&gt;&lt;zero-md src="text/note.md"&gt;&lt;/zero-md&gt;&lt;/p&gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-&lt;/div&gt;
-</code></pre></div>      </div>
-    </div>
+      <br />
+      <br />
+      <p><zero-md src="text/note.md"></zero-md></p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
 <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
 <style>
@@ -98,13 +98,13 @@
   <div class="right" id="column" style="background-color: #bbb">
     <div style="padding: 10px">
       <h2>Column 2</h2>
-      <p><zero-md src="text/note.md"></zero-md></p>
+      <p><zero-md src=""></zero-md></p>
     </div>
   </div>
 </div>
 
-
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
 <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
 <style>
@@ -158,11 +158,11 @@
   </div>
 </div>
 
-
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
 <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
-<div style="background-image:url('assets/img/smile-entrepreneur.jpg'); color:white;   background-size: auto;  background-position: 60% 15%;z-index:0; position: relative; margin-bottom: -40px;" class="force-white-link">
+<div style="background-image:url('assets/img/smile-entrepreneur.jpg'); color:white;   background-size: auto;  background-position: 60% 15%;z-index:0; position: relative; margin-bottom: -20px;" class="force-white-link">
   <div style="
       position: absolute;
       width: 100%;
@@ -177,34 +177,32 @@
   <br />
   <div style="padding: 10px">
     <h2>Join us today</h2>
-    <div>
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;p&gt;&lt;zero-md src="text/note.md"&gt;&lt;/zero-md&gt;&lt;/p&gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-  &lt;br &gt;
-&lt;/div&gt;
-</code></pre></div>        </div>
-      </div>
+      <br />
+      <br />
+      <p><zero-md src="text/note.md"></zero-md></p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+  </div>
 </div>
 
-</div></div>
 :ET
