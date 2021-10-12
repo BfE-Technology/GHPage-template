@@ -8,11 +8,8 @@ TODO: Delete this and the text above, and describe your gem
 
 
 ## Documentation
-- [Setup and Installation](doc/setup.md)
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+- [Setup and Installation](docs/setup.md)
+- [Customisation](docs/customisation.md)
 
 ## Contributing
 
