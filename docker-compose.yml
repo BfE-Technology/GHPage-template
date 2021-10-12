@@ -1,0 +1,13 @@
+#
+#    Docker-compose file for GitHub Page
+#
+version: '3'
+services:
+  github-page:
+    image: ghcr.io/bfe-technology/github-page:219
+    volumes:
+      - './:/srv/jekyll'
+      - /srv/jekyll/_site/
+    ports:
+      - '4000:4000'
+      - '35729:35729'
