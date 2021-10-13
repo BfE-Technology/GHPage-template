@@ -2,7 +2,23 @@
 
 ## Installation
 
-**Configuring in your Jekyll site**
+**Method 1: Docker Image**
+
+1. Install [Docker](https://docs.docker.com/get-docker/) if it is not in your computer.
+
+2. Create a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for Docker image pulling in the following steps.
+
+3. [Authenticate to the Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry) to allow Docker image pulling.
+
+4. Once login is succeeded, start the Docker engine and run `docker pull ghcr.io/bfe-technology/github-page:219` to pull the image.
+
+5. Then, run `docker-compose up` to build the Docker container and start the page preview at `http://localhost:4000`.
+
+6. To stop page preview, press `Ctrl+C`.
+
+7. To remove the built Docker container, run `docker-compose down`.
+
+**Method 2: Configuring in your Jekyll site (To Be Updated)**
 
 Add the following into the site's `Gemfile`:
 
