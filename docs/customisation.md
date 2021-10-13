@@ -24,14 +24,14 @@ To include your customised text and images in the webpage, please ensure that th
 
 In `index.md`, include the following line formatted with the desired attributes and values to match the sections and assets you want to customise. You can include it as many times for different FILE_NAME.
 ```
-{% include FILE_NAME ATTRIBUTE="VALUE" %}
+[{% include FILE_NAME ATTRIBUTE="VALUE" %}]
 ```
 
 - Refer to the list below for FILE_NAME, ATTRIBUTE and VALUE configuration.
 - Please read the Assets section above for locating your custom text and image files.
 - Where ATTRIBUTE exists more than one in that section, extend the list with your desired options, eg:
 ```
-{% include FILE_NAME ATTRIBUTE1="VALUE1" ATTRIBUTE2="VALUE2" %}
+[{% include FILE_NAME ATTRIBUTE1="VALUE1" ATTRIBUTE2="VALUE2" %}]
 ```
 - Block is listed according to sequence appearing in the webpage.
 
