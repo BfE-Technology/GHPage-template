@@ -2,7 +2,7 @@
 
 ## Installation
 
-**Method 1: Docker Image**
+**Docker Image**
 
 1. Install [Docker](https://docs.docker.com/get-docker/) if it is not in your computer.
 
@@ -17,28 +17,6 @@
 6. To stop page preview, press `Ctrl+C`.
 
 7. To remove the built Docker container, run `docker-compose down`.
-
-**Method 2: Configuring in your Jekyll site (To Be Updated)**
-
-Add the following into the site's `Gemfile`:
-
-```ruby
-gem "BfE-theme"
-```
-
-Then, add this line into the site's `_config.yml`:
-
-```yaml
-theme: BfE-theme
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install BfE-theme
 
 ## Development Environment
 
