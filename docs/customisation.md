@@ -22,6 +22,8 @@ To include your customised text and images in the webpage, please ensure that th
 
 ## Layout
 
+
+
 - Block is listed according to sequence appearing in the webpage.
 
 1. Blank Block - To include an extra section below header (navigation bar) for adding text or image. Can be left blank.
@@ -47,3 +49,38 @@ To include your customised text and images in the webpage, please ensure that th
 6. Last Block - To include the "Join us today" section.
 - FILE_NAME: last_block.html
 - ATTRIBUTE: last_block_img (image file), file (text file)
+
+In `_config.yml`, edit the following attributes to customise:
+
+1. Header section
+```yml
+title:
+subtitle:
+name:
+description:
+```
+
+2. Footer section
+```yml
+baseurl:  
+icon:
+year:
+```
+
+3. Navigation Bar
+```yml
+nav:
+  ...
+    title:
+    url:
+```
+
+4. Social Media Links
+```yml
+email:
+github:
+Home:  
+
+social:
+  ...
+```
