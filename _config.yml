@@ -1,17 +1,17 @@
-layouts_dir: _layouts-theme
-includes_dir: _includes-theme
+layouts_dir: _layouts
+includes_dir: _includes
 
 title: BfC
 subtitle: xxx | xxx | xxx
 name: Bridges for Charity
 description: An International non-profit organisation
-baseurl:  
+baseurl:
 icon: assets/img/bfe_logo.svg
 year: 2021
 
 nav:
   HOME:
-  subnav1: 
+  subnav1:
     title: Get Involved
     url:
   subnav2:
@@ -23,15 +23,15 @@ nav:
 
 email:
 github:
-Home:  
+Home:
 
 social:
   medium:
   twitter:
   facebook:
   instagram:
-  linkedin:  
+  linkedin:
   youtube:
-  github: 
+  github:
   email:
   website:

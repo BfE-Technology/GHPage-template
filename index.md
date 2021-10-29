@@ -1,5 +1,5 @@
 ---
-layout: tech-layout
+layout: main-layout
 navbar: true
 ---
 
