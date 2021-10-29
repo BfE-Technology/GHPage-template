@@ -1,5 +1,5 @@
-layouts_dir: _layouts
-includes_dir: _includes
+layouts_dir: _layouts-theme
+includes_dir: _includes-theme
 
 title: BfC
 subtitle: xxx | xxx | xxx
