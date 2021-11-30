@@ -1,17 +1,17 @@
 layouts_dir: _layouts-theme
 includes_dir: _includes-theme
 
-title: BfC
-subtitle: xxx | xxx | xxx
-name: Bridges for Charity
+title: BfE
+subtitle: Social Impact | Technology | Entrepreneurship
+name: Tech
 description: An International non-profit organisation
-baseurl:  
+baseurl:
 icon: assets/img/bfe_logo.svg
 year: 2021
 
 nav:
   HOME:
-  subnav1: 
+  subnav1:
     title: Get Involved
     url:
   subnav2:
@@ -21,17 +21,17 @@ nav:
     title: Who We Are
     url:
 
-email:
-github:
-Home:  
+email:  technology.recruitment@bridgesforenterprise.com
+github: https://github.com/BfE-Technology
+Home:   https://www.bridgesforenterprise.com
 
 social:
-  medium:
-  twitter:
-  facebook:
-  instagram:
-  linkedin:  
-  youtube:
-  github: 
-  email:
-  website:
+  medium:     https://medium.com/bridges-for-enterprise
+  twitter:    https://twitter.com/bfeglobal
+  facebook:   https://www.facebook.com/BridgesforEnterprise/
+  instagram:  https://www.instagram.com/bfe.global/
+  linkedin:   https://www.linkedin.com/company/bridges-for-enterprise/
+  youtube:    https://www.youtube.com/channel/UC6LhJnDH9UwlMhZLQShEl0A
+  github:     https://github.com/BfE-Technology
+  email:      technology.recruitment@bridgesforenterprise.com
+  website:    https://www.bridgesforenterprise.com

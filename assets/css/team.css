@@ -1,0 +1,43 @@
+.team-title-container, .role-buttons-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.role-buttons-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.role-button:link, .role-button:visited {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  background: #1a222c;
+  line-height: 30px;
+  width: 90%;
+  padding: auto;
+  color: white;
+}
+
+.role-box {
+  padding: 40px;
+}
+
+.role-desc {
+  position: relative;
+  border: 2px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.role-desc-button:link, .role-desc-button:visited {
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  background: #1a222c;
+  line-height: 30px;
+  padding: 10px 20px;
+  color: white;
+}

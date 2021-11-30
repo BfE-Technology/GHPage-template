@@ -6,44 +6,56 @@
 
 <style>
 
-  div#column {
+  div#column-triple {
     float: left;
     padding: 10px;
     overflow: hidden;
     box-sizing: border-box;
   }
 
-  .left {
+  .left-triple {
     width: {{ include.left_flex }};
   }
 
-  .right {
+  .middle-triple {
+    width: {{ include.middle_flex }};
+  }
+
+  .right-triple {
     width: {{ include.right_flex }};
   }
 
-  .row:after {
+  .row-triple:after {
     content: "";
     display: table;
     clear: both;
   }
 
   @media screen and (max-width: 600px) {
-    .left {
+    .left-triple {
       width: 100%;
     }
-    .right {
+    .middle-triple {
+      width: 100%;
+    }
+    .right-triple {
       width: 100%;
     }
   }
 </style>
 
-<div class="row">
-  <div class="left" id="column" style="background-color:{{ include.color }};">
+<div class="row-triple">
+  <div class="left-triple" id="column-triple" style="background-color:{{ include.left_color }};">
     <div style="padding: 10px">
       <zero-md src="{{ include.file_left }}"></zero-md>
     </div>
   </div>
-  <div class="right" id="column" style="background-color: white">
+  <div class="middle-triple" id="column-triple" style="background-color:{{ include.middle_color }};">
+    <div style="padding: 10px">
+      <zero-md src="{{ include.file_middle }}"></zero-md>
+    </div>
+  </div>
+  <div class="right-triple" id="column-triple" style="background-color: white">
     <div style="padding: 10px">
       <zero-md src="{{ include.file_right }}"></zero-md>
     </div>
