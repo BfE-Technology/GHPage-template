@@ -1,0 +1,22 @@
+
+<!-- 
+  Layout Name: Tech
+  Input Parameters:
+      navbar |  boolean (true or false)  |  indicating whether a navbar is required
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head_bfe.html %}
+  <body>
+    <!--include nav bar--> 
+    {% if page.navbar == true %} 
+    {% include nav_tech.html %} 
+    {% endif %} 
+
+    {% include title_bfe.html %}
+
+    {{ content }} 
+    {% include footer_bfe.html %}
+  </body>
+</html>

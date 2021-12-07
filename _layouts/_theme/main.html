@@ -1,0 +1,23 @@
+
+<!-- 
+  Layout Name: Main
+  Input Parameters:
+      navbar |  boolean (true or false)  |  indicating whether a navbar is required
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+
+    <!--include nav bar-->
+    {% if page.navbar == true %}
+      {% include title_with_nav.html file="text/note.md" %}
+    {% elsif page.navbar == false %} 
+      {% include title_with_nav.html %}
+    {% endif %}
+
+    {{ content }} 
+    {% include footer.html %}
+  </body>
+</html>

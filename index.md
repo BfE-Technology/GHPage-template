@@ -1,6 +1,6 @@
 ---
-layout: main-layout
-navbar: true
+layout: main
+navbar: false
 ---
 
 <!--if ever wat to use a block without background image-->
