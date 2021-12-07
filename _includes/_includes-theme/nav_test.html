@@ -1,0 +1,108 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+></script>
+<!-- should put content of mega menu in debug-->
+<body>
+<!--title-->
+  <div class="title_wrapper">
+    <div class="title">{{ site.title }}</div>
+    <div class="subtitle">{{ site.subtitle }}</div>
+  </div>
+  <nav>
+    <div class="wrapper">
+      <div class="logo_img">
+        <img src="assets/img/bfe_logo.svg" viewBox="0 0 100 100" />
+      </div>
+      <!--
+      <div class="logo">
+      <div class="title">
+      BfC</div>
+      <div class="description">
+      dehhjbl</div>
+      </div>-->
+      <input type="radio" name="slider" id="menu-btn" />
+      <input type="radio" name="slider" id="close-btn" />
+      <!--sections-->
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"
+          ><i class="fas fa-times"></i
+        ></label>
+        <li>
+          <a href="#" class="desktop-item">Who We Are</a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Who We Are</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <header>Design Services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Email Services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Security services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">What We Do</a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">What We Do</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <header>Design Services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Email Services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Security services</header>
+                <ul class="mega-links">
+                  <li>
+                    <p><zero-md src="{{ include.file }}"></zero-md></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"
+        ><i class="fas fa-bars"></i
+      ></label>
+    </div>
+  </nav>
+</body>

@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 title: Title
+=======
+layouts_dir: _layouts
+includes_dir: _includes
+
+title: BfC
+>>>>>>> f1ba7fea3e53b3fac507bcb320573315cce6a1f9
 subtitle: xxx | xxx | xxx
 name: Name
 description: Description

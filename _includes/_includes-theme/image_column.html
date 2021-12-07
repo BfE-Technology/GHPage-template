@@ -1,0 +1,56 @@
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+></script>
+
+<style>
+
+  div#column {
+    float: left;
+    padding: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 634px;
+  }
+
+  .links {
+    width: {{ include.left_flex }};
+  }
+
+  .reichts {
+    width: {{ include.right_flex }};
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .links {
+      width: 100%;
+    }
+    .reichts {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="row">
+  <div class="links" id="column" style="background-color: #aaa">
+    <div style="padding: 10px">
+      <h2>Some img..</h2>
+      <img src="{{ include.img }}" style="width: 100px; height: 100px" />
+    </div>
+  </div>
+  <div class="reichts" id="column" style="background-color: #bbb">
+    <div style="padding: 10px">
+      <h2>Some title..</h2>
+      <p><zero-md src="{{ include.file }}"></zero-md></p>
+      <button class="read_more_btn">Read More</button>
+    </div>
+  </div>
+</div>
