@@ -1,5 +1,5 @@
 ---
-layout: main-layout
+layout: tech-sub
 navbar: true
 ---
 
@@ -7,10 +7,10 @@ navbar: true
 
 {% include blank_block.html color="white" file="text/team/role-buttons.md"%}
 
-{% include blank_block.html color="white" file="text/team/global-managers.md"%}
+{% include sub_header.html title="text/team/managers-title.md" description="text/team/managers.md"%}
 
-{% include blank_block.html color="white" file="text/team/chapter-directors.md"%}
+{% include sub_header.html title="text/team/directors-title.md" description="text/team/directors.md"%}
 
-{% include blank_block.html color="white" file="text/team/professional-mentors.md"%}
+{% include sub_header.html title="text/team/mentors-title.md" description="text/team/mentors.md"%}
 
-{% include blank_block.html color="white" file="text/team/alumni.md"%}
+{% include sub_header.html title="text/team/alumni-title.md" description="text/team/alumni.md"%}

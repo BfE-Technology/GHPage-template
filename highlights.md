@@ -1,4 +1,4 @@
 ---
-layout: main-layout
+layout: tech-sub
 navbar: true
 ---
