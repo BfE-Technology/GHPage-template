@@ -3,9 +3,9 @@ layout: tech-sub
 navbar: true
 ---
 
-{% include blank_block.html color="white" file="text/team/title.md"%}
+{% include center_header.html title="text/team/intro-title.md" description="text/team/intro.md"%}
 
-{% include blank_block.html color="white" file="text/team/role-buttons.md"%}
+{% include single_info_box.html color="white" file="text/team/role-buttons.md"%}
 
 {% include sub_header.html title="text/team/managers-title.md" description="text/team/managers.md"%}
 
