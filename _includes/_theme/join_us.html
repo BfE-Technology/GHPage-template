@@ -1,3 +1,10 @@
+
+<!-- 
+  Component Name: bottom block with 'join us' infomation
+  Input Parameters:
+      files with text
+-->
+
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 <script
   type="module"
@@ -5,8 +12,8 @@
 ></script>
 
 <div
-  style="background-image:url('{{ include.second_block_img }}'); color:white;   background-size: auto;  background-position: 100% 100%;z-index:0; position: relative; margin-top: -8px;"
-  id="who-we-are"
+  style="background-image:url('{{ include.join_us_img }}'); color:white;   background-size: auto;  background-position: 60% 15%;z-index:0; position: relative; margin-bottom: -20px;"
+  class="force-white-link"
 >
   <div
     style="
@@ -15,7 +22,7 @@
       height: 100%;
       background-color: black;
       z-index: -1;
-      opacity: 0.8;
+      opacity: 0.6;
     "
   ></div>
   <br >
@@ -23,7 +30,7 @@
   <br >
   <br >
   <div style="padding: 10px">
-    <h2>Who We Are</h2>
+    <h2>Join us today</h2>
       <br >
       <br >
       <p><zero-md src="{{ include.file }}"></zero-md></p>
