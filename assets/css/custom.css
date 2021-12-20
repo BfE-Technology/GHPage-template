@@ -1,7 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
 body {
   display: block;
   margin: 0px;
-  font-family:Arial;
+  font-family: 'HK Grotesk';
 }
 
 /* button */

@@ -1,2 +1,0 @@
-<p>Global Managers are permanent volunteers with dedicated portfolios. Demonstrated excellence in the field is necessary. Most of our GMs start at BfE on volunteer opportunities, but in exceptional circumstances, we hire directly into the GM position. Check for current opportunities and contact us if you have any questions.</p>
-<a class="role-desc-button" href="">Current volunteer opportunities</a>

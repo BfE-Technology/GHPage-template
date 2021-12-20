@@ -15,8 +15,8 @@ max-height: 100vh;
 font-size: 1.5rem; /*.text-2xl*/
 padding: 1.25rem; /*.p-5*/
 border-left-width: 2px; /*.border-l-2*/
-border-color: #1e3a8a;
-background-color: #f3f4f6; /*.bg-gray-100 */
+border-color: #163752;
+background-color: #edf9ff;
 color: black;
 }
 /* Icon */
@@ -40,23 +40,11 @@ content: "+";
 font-weight:bold; /*.font-bold*/
 border-width: 1px; /*.border*/
 border-radius: 9999px; /*.rounded-full */
-border-color: #b8c2cc; /*.border-grey*/
-}
-.tab input[type=radio] + label::after {
-content: "\25BE";
-font-weight:bold; /*.font-bold*/
-border-width: 1px; /*.border*/
-border-radius: 9999px; /*.rounded-full */
-border-color: #b8c2cc; /*.border-grey*/
+border-color: #163752;
 }
 /* Icon formatting - open */
 .tab input[type=checkbox]:checked + label::after {
 transform: rotate(315deg);
-background-color: #1e3a8a;
-color: #f8fafc; /*.text-grey-lightest*/
-}
-.tab input[type=radio]:checked + label::after {
-transform: rotateX(180deg);
-background-color: #1e3a8a;
-color: #f8fafc; /*.text-grey-lightest*/
+background-color: #163752;
+color: #edf9ff; 
 }

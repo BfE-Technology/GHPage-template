@@ -1,1 +1,1 @@
-<h2>External Start-Ups Projects</h2>
+<h2>Start-Ups Projects</h2>

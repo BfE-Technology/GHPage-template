@@ -1,1 +1,1 @@
-<h2>Internal BfE Projects</h2>
+<h2>BfE Internal Projects</h2>

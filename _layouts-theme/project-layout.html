@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <!--include nav bar-->
+  {% if page.navbar == true %}
+  {% include nav_tech.html %}
+  {% endif %}
+
+<br/>
+
+  <body>
+      <div
+        style="background-image:url('{{ page.img_link }}'); color:white;   background-size: auto;  background-position: 100% 100%;z-index:0; position: relative;"
+        id="who-we-are"
+      >
+        <div
+          style="
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: -1;
+            opacity: 0.3;
+          "
+        ></div>
+        <div>
+            <zero-md src="{{ page.file }}"></zero-md>
+        </div>
+      </div>
+    {% include footer_bfe.html %}
+  </body>
+</html>

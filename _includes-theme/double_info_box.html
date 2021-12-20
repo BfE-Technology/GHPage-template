@@ -6,11 +6,12 @@
 
 <style>
 
-  div#column {
+  div#double-info-column {
     float: left;
     padding: 20px 30px;
     overflow: hidden;
     box-sizing: border-box;
+    flex: 1;
   }
 
   .left {
@@ -37,14 +38,14 @@
   }
 </style>
 
-<div class="row">
-  <div class="left" id="column" style="background-color: white;">
-    <div style="padding: 20px; background-color: #edf9ff;">
+<div class="row" style="display: flex; height: 100%;">
+  <div class="left" id="double-info-column" style="background-color: white;">
+    <div style="padding: 20px; background-color: #edf9ff; height: 100%;">
       <zero-md src="{{ include.file_left }}"></zero-md>
     </div>
   </div>
-  <div class="right" id="column" style="background-color: white">
-    <div style="padding: 20px; background-color: #edf9ff;">
+  <div class="right" id="double-info-column" style="background-color: white">
+    <div style="padding: 20px; background-color: #edf9ff; height: 100%;">
       <zero-md src="{{ include.file_right }}"></zero-md>
     </div>
   </div>

@@ -1,0 +1,68 @@
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+></script>
+
+<style>
+
+  div#double-button-column {
+    float: left;
+    padding: 20px 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .left {
+    height: 100%;
+    width: 50%;
+  }
+
+  .right {
+    height: 100%;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+
+  .button-include:link, .button-include:visited {
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    background: #163752;
+    line-height: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+  }
+</style>
+
+<div class="row" style="padding: 0px 30px;">
+  <div class="left" id="double-button-column" style="padding: 10px 0px;">
+      <div>
+          <a class="button-include" href="{{ include.left_link }}">
+              {{ include.left_description }}
+          </a>
+      </div>
+  </div>
+  <div class="right" id="double-button-column" style="padding: 10px 30px;">
+      <div>
+          <a class="button-include" href="{{ include.right_link }}">
+              {{ include.right_description }}
+          </a>
+      </div>
+  </div>
+</div>

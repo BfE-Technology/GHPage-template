@@ -10,7 +10,7 @@
     <p>Bridges for Enterprise (BfE) is a global non-profit that provides pro-bono advisory services to social impact startups in the developing world.</p>
     <p>At BfE Technology, we build algorithms and products to connect our global community and make our services accessible to all.</p>
     <p>We are a group of passionate professionals and students from all over the world, who care deeply about pursuing professional growth while creating a lasting social impact beyond our day-to-day work.</p>
-    <p class="text-white">Check out our <a class="font-bold text-white hover:text-gray-100 hover:underline" href="https://www.bridgesforenterprise.com" target="_blank">main website</a> to find out more about what we do.</p>
+    <p class="text-white">Check out our <a style="color: white; text-decoration: underline; font-weight: bold;" href="https://www.bridgesforenterprise.com" target="_blank">main website</a> to find out more about what we do.</p>
   </div>
 
 </div>

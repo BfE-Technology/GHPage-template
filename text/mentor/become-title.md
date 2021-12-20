@@ -1,1 +1,1 @@
-<h2>Become a tech mentor:</h2>
+<h2>Become a Tech Mentor</h2>

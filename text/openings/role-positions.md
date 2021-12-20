@@ -1,6 +1,6 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-<div class="bg-blue-900 text-white align-center p-2.5">
+<div style="background-color: #183752;" class="text-white align-center p-2.5">
     <p>2. Roles</p>
 </div>
 <p>Roles are longer commitment positions involving some management and project facilitating.</p>
