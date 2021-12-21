@@ -6,7 +6,6 @@ navbar: true
 {% include center_header.html title="text/team/intro-title.md" description="text/team/intro.md"%}
 
 {% include sub_header.html title="text/team/advisors-title.md" description="text/team/advisors.md"%}
-{% include button.html padding="30px" link="/openings" description="Current volunteer opportunities"%}
 
 {% include profile_image.html name="Adam Dunkley" location="London, United Kingdom" img_link="assets/headshots/Adam_Dunkley.jpg" file="text/team/members/adam_dunkley.md" linkedin="https://www.linkedin.com/in/adamcdunkley/"%}
 
@@ -16,14 +15,33 @@ navbar: true
 
 
 
-{% include sub_header.html title="text/team/management-title.md" description="text/team/management.md"%}
-{% include button.html padding="30px" link="/openings" description="Current volunteer opportunities"%}
+{% include single_info_box.html color="white" file="text/team/management-title.md"%}
 
-{% include sub_header.html title="text/team/directors-title.md" description="text/team/directors.md"%}
-{% include button.html padding="30px" link="/openings" description="Current volunteer opportunities"%}
+{% include profile_image.html name="Kevin Huang" location="London, United Kingdom" img_link="assets/headshots/Kevin_Huang.png" file="text/team/members/kevin_huang.md" linkedin="https://www.linkedin.com/in/kevin-han-huang-995ab1a0/"%}
 
-{% include sub_header.html title="text/team/directors-title.md" description="text/team/directors.md"%}
-{% include button.html padding="30px" link="/openings" description="Current volunteer opportunities"%}
+
+
+
+
+{% include sub_header.html title="text/team/technical-title.md" description="text/team/technical.md"%}
+
+{% include profile_image.html name="Xiaodong Wu" location="Cambridge, United Kingdom" img_link="assets/headshots/Xiaodong_Wu.png" file="text/team/members/xiaodong_wu.md" linkedin="https://www.linkedin.com/in/xiaodongwu1998/"%}
+
+
+
+
+
+{% include single_info_box.html color="white" file="text/team/directors-title.md"%}
+
+{% include profile_image.html name="Ziyi Liu" location="Cambridge, United Kingdom" img_link="assets/headshots/Ziyi_Liu.jng" file="text/team/members/ziyi_liu.md" linkedin="https://www.linkedin.com/in/zi-liu/"%}
+
+
+
+
+
+{% include single_info_box.html color="white" file="text/team/associates-title.md"%}
+
+{% include profile_text_linkedin.html name="Wanlin Zhang" position="Singapore Associate" current="Undergraduate student in Computer Science @ NUS" location="Singapore" linkedin="https://www.linkedin.com/in/wanlin-zhang-b890591ba/"%}
 
 
 

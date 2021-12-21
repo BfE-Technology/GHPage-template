@@ -1,32 +1,59 @@
+<!--
+    Layout Name: Project
+    Input Parameters:
+        navbar      | boolean (show navbar)
+        img_link    | file path
+        title       | file path
+        file        | file path
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  {% include head_bfe.html %}
 
   <!--include nav bar-->
   {% if page.navbar == true %}
   {% include nav_tech.html %}
   {% endif %}
 
-<br/>
+  <style>
+    .title-image {
+        background-image:url('{{ page.img_link }}');
+                color:white;
+                background-size: auto;
+                background-position: 100% 100%;
+                z-index:0;
+                position: relative;
+    }
+
+    .title-text {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        z-index: -1;
+        text-align: center;
+        color: white;
+    }
+
+    @media screen and (max-width: 600px) {
+        .title-text {
+            height: 150px;
+        }
+    }
+  </style>
+
+<br>
+<br>
 
   <body>
-      <div
-        style="background-image:url('{{ page.img_link }}'); color:white;   background-size: auto;  background-position: 100% 100%;z-index:0; position: relative;"
-        id="who-we-are"
-      >
-        <div
-          style="
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            z-index: -1;
-            opacity: 0.3;
-          "
-        ></div>
-        <div>
-            <zero-md src="{{ page.file }}"></zero-md>
-        </div>
+      <div class="title-image">
+        <div class="title-text">
+          <zero-md src="{{ page.title }}"></zero-md>
+       </div>
+      </div>
+
+      <div>
+          <zero-md src="{{ page.file }}"></zero-md>
       </div>
     {% include footer_bfe.html %}
   </body>

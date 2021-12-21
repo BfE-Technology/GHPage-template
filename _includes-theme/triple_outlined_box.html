@@ -1,3 +1,11 @@
+<!--
+    Include Name: Triple Box with Border
+    Input Parameters:
+        file_left   | file path
+        file_middle | file path
+        file_right  | file path
+-->
+
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 <script
   type="module"
@@ -12,16 +20,17 @@
     overflow: hidden;
     box-sizing: border-box;
     flex: 1;
+    height: 100%;
   }
 
   .left-triple, .middle-triple, .right-triple {
     width: 33.33%;
   }
 
-  .row-triple:after {
-    content: "";
-    display: table;
-    clear: both;
+  .row-triple {
+      display: flex;
+      clear: both;
+      height: 100%;
   }
 
   @media screen and (max-width: 600px) {
@@ -34,10 +43,13 @@
     .right-triple {
       width: 100%;
     }
+    .row-triple {
+        display: block;
+    }
   }
 </style>
 
-<div class="row-triple" style="display: flex; height: 100%;">
+<div class="row-triple">
   <div class="left-triple" id="column-triple" style="background-color: white;">
         <div style="position: relative; padding: 20px; height: 100%; text-align: center; border: 2px solid black;">
             <zero-md src="{{ include.file_left }}"></zero-md>

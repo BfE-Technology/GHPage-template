@@ -28,32 +28,6 @@ include FILE_NAME ATTRIBUTE1="VALUE1" ATTRIBUTE2="VALUE2" ...
 (wrap the above in {% ... %})
 ```
 
-- Block is listed according to sequence appearing in the webpage.
-
-1. Blank Block - To include an extra section below header (navigation bar) for adding text or image. Can be left blank.
-- FILE_NAME: blank_block.html
-- ATTRIBUTE: color (string or hexadecimal number), file (text file)
-
-2. First Block - To include image block.
-- FILE_NAME: first_block.html
-- ATTRIBUTE: first_block_img (image file)
-
-3. Second Block - To include the "Who We Are" introduction section.
-- FILE_NAME: second_block.html
-- ATTRIBUTE: second_block_img (image file), file (text file)
-
-4. Text Column - To include a text block with two columns.
-- FILE_NAME: text_column.html
-- ATTRIBUTE: left_flex (size of left column), right_flex (size of right column), color (left column color), file_left (text file for left column), file_right (text file for right column)
-
-5. Image Column - To include a block with left image column and right text column.
-- FILE_NAME: image_column.html
-- ATTRIBUTE: left_flex (size of left column), right_flex (size of right column), img (image file for left column), file (text file for right column)
-
-6. Last Block - To include the "Join us today" section.
-- FILE_NAME: last_block.html
-- ATTRIBUTE: last_block_img (image file), file (text file)
-
 In `_config.yml`, edit the following attributes to customise:
 
 1. Header section

@@ -1,3 +1,10 @@
+<!--
+    Include Name: Double Info Box
+    Input Parameters:
+        file_left   | file path
+        file_right  | file path
+-->
+
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 <script
   type="module"
@@ -11,40 +18,45 @@
     padding: 20px 30px;
     overflow: hidden;
     box-sizing: border-box;
-    flex: 1;
+    flex: 1
+    height: 100%;
   }
 
-  .left {
+  .double-info-left {
     width: 50%;
   }
 
-  .right {
+  .double-info-right {
     width: 50%;
   }
 
-  .row:after {
-    content: "";
-    display: table;
+  .double-info-row {
+    display: flex;
     clear: both;
+    height: 100%;
   }
 
   @media screen and (max-width: 600px) {
-    .left {
+    .double-info-left {
       width: 100%;
     }
-    .right {
+    .double-info-right {
       width: 100%;
+    }
+    .double-info-row {
+      display: block;
+      height: 100%;
     }
   }
 </style>
 
-<div class="row" style="display: flex; height: 100%;">
-  <div class="left" id="double-info-column" style="background-color: white;">
+<div class="double-info-row">
+  <div class="double-info-left" id="double-info-column" style="background-color: white;">
     <div style="padding: 20px; background-color: #edf9ff; height: 100%;">
       <zero-md src="{{ include.file_left }}"></zero-md>
     </div>
   </div>
-  <div class="right" id="double-info-column" style="background-color: white">
+  <div class="double-info-right" id="double-info-column" style="background-color: white">
     <div style="padding: 20px; background-color: #edf9ff; height: 100%;">
       <zero-md src="{{ include.file_right }}"></zero-md>
     </div>

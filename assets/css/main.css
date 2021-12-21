@@ -1,5 +1,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);html {
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -29,7 +31,7 @@ hr {
 }
 
 code,kbd,pre,samp {
-    font-family: monospace,monospace;
+    font-family: 'HK Grotesk', monospace;
     font-size: 1em
 }
 
@@ -93,7 +95,7 @@ svg:not(:root) {
 }
 
 button,input,optgroup,select,textarea {
-    font-family: sans-serif;
+    font-family: 'HK Grotesk', sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0
@@ -4399,7 +4401,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: 'Montserrat',arial,sans-serif
+    font-family: 'HK Grotesk', 'Montserrat',arial,sans-serif
 }
 
 article,aside,figcaption,figure,footer,header,nav,section {
