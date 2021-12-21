@@ -7,47 +7,48 @@
         right_description | string
 -->
 
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
-></script>
-
 <style>
 
   div#double-button-column {
     float: left;
-    padding: 20px 30px;
     overflow: hidden;
     box-sizing: border-box;
   }
 
-  .left {
+  .double-button-left {
     height: 100%;
     width: 50%;
+    padding: 10px 0px;
   }
 
-  .right {
+  .double-button-right {
     height: 100%;
     width: 50%;
+    padding: 10px 30px;
   }
 
-  .row:after {
+  .double-button-row {
+    padding: 0px 30px;
+  }
+
+  .double-button-row:after {
     content: "";
     display: table;
     clear: both;
   }
 
   @media screen and (max-width: 600px) {
-    .left {
+    .double-button-left {
       width: 100%;
+      padding: 10px 0px;
     }
-    .right {
+    .double-button-right {
       width: 100%;
+      padding: 10px 0px;
     }
   }
 
-  .button-include:link, .button-include:visited {
+  .double-button-include:link, .double-button-include:visited {
     position: relative;
     text-align: center;
     border-radius: 5px;
@@ -59,17 +60,17 @@
   }
 </style>
 
-<div class="row" style="padding: 0px 30px;">
-  <div class="left" id="double-button-column" style="padding: 10px 0px;">
+<div class="double-button-row">
+  <div class="double-button-left" id="double-button-column">
       <div>
-          <a class="button-include" href="{{ include.left_link }}">
+          <a class="double-button-include" href="{{ include.left_link }}">
               {{ include.left_description }}
           </a>
       </div>
   </div>
-  <div class="right" id="double-button-column" style="padding: 10px 30px;">
+  <div class="double-button-right" id="double-button-column">
       <div>
-          <a class="button-include" href="{{ include.right_link }}">
+          <a class="double-button-include" href="{{ include.right_link }}">
               {{ include.right_description }}
           </a>
       </div>

@@ -5,23 +5,17 @@
         description  | file path
 -->
 
-
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
-></script>
-
 <style>
 
-  div#project-info-column {
+  div#project-card-column {
     padding: 20px 30px;
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
+    background: white;
   }
 
-  .row:after {
+  .project-card-row:after {
     content: "";
     display: table;
     clear: both;
@@ -29,12 +23,12 @@
 
 </style>
 
-<div class="row" id="project-info-column" style="background: white;">
+<div class="project-card-row" id="project-card-column">
     <div style="background-color: #edf9ff;">
-        <div style="position: relative; padding: 20px; border: 2px solid #163752;">
+        <div style="padding: 20px; border: 2px solid #163752;">
             <zero-md src="{{ include.title }}"></zero-md>
 
-            <div style="position: relative; padding: 20px; margin-top: 10px; background-color: #edf9ff;">
+            <div style="padding: 20px; margin-top: 10px;">
                 <zero-md src="{{ include.description }}"></zero-md>
             </div>
         </div>

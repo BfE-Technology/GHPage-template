@@ -4,11 +4,18 @@
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
-    margin: 0
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
@@ -4481,11 +4488,21 @@ sub,sup {
     color: #fff
 }
 
+.site-title img {
+    text-align: center;
+    padding-left: 25vw;
+}
+
 @media only screen and (min-width: 550px) {
     .header .site-title {
         margin:0;
         font-size: 100px;
         width: 80vw;
+    }
+
+    .site-title img {
+        display: inline;
+        padding: 20px;
     }
 }
 

@@ -8,12 +8,6 @@
         linkedin    | string URL
 -->
 
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
-></script>
-
 <style>
 
   div#profile-image-column {
@@ -37,6 +31,13 @@
     width: 65%;
     height: 250px;
     vertical-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .profile-image-linkedin {
+    bottom: 5px;
+    left: 15px;
   }
 
   .profile-image-row:after {
@@ -65,14 +66,13 @@
   <div class="profile-image-left" id="profile-image-column"
         style="background-image: url('{{ include.img_link }}');">
   </div>
-  <div class="profile-image-right" id="profile-image-column"
-        style="background-color: white; padding: 20px;">
+  <div class="profile-image-right" id="profile-image-column">
     <strong style="font-size: 1.5rem">{{ include.name }}</strong>
     <div><i class="fas fa-map-marker-alt"></i> {{ include.location }}</div>
     <div>
       <zero-md src="{{ include.file }}"></zero-md>
     </div>
-    <div style="bottom: 5px; left: 15px;"><a href="{{ include.linkedin }}" target="_blank" aria-label="linkedin">
+    <div class="profile-image-linkedin"><a href="{{ include.linkedin }}" target="_blank" aria-label="linkedin">
         <i class="fab fa-linkedin-in"></i></a>
     </div>
   </div>

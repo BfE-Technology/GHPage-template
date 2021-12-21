@@ -6,14 +6,8 @@
         description | string
 -->
 
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
-></script>
-
 <style>
-    .button-include:link, .button-include:visited {
+    .single-button-include:link, .single-button-include:visited {
       position: relative;
       text-align: center;
       border-radius: 5px;
@@ -26,7 +20,7 @@
 </style>
 
 <div style="padding: 0px {{ include.padding }};">
-    <a class="button-include" href="{{ include.link }}">
+    <a class="single-button-include" href="{{ include.link }}">
         {{ include.description }}
     </a>
 </div>

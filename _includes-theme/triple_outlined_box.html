@@ -1,17 +1,3 @@
-<!--
-    Include Name: Triple Box with Border
-    Input Parameters:
-        file_left   | file path
-        file_middle | file path
-        file_right  | file path
--->
-
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
-></script>
-
 <style>
 
   div#column-triple {
@@ -20,7 +6,7 @@
     overflow: hidden;
     box-sizing: border-box;
     flex: 1;
-    height: 100%;
+    background-color: white;
   }
 
   .left-triple, .middle-triple, .right-triple {
@@ -29,8 +15,21 @@
 
   .row-triple {
       display: flex;
-      clear: both;
       height: 100%;
+  }
+
+  .row-triple:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .triple-info-inner {
+      position: relative;
+      padding: 20px;
+      height: 100%;
+      text-align: center;
+      border: 2px solid black;
   }
 
   @media screen and (max-width: 600px) {
@@ -43,6 +42,7 @@
     .right-triple {
       width: 100%;
     }
+
     .row-triple {
         display: block;
     }
@@ -50,18 +50,18 @@
 </style>
 
 <div class="row-triple">
-  <div class="left-triple" id="column-triple" style="background-color: white;">
-        <div style="position: relative; padding: 20px; height: 100%; text-align: center; border: 2px solid black;">
+  <div class="left-triple" id="column-triple">
+        <div class="triple-info-inner">
             <zero-md src="{{ include.file_left }}"></zero-md>
         </div>
   </div>
-  <div class="middle-triple" id="column-triple" style="background-color: white;">
-        <div style="position: relative; padding: 20px; height: 100%; text-align: center; border: 2px solid black;">
+  <div class="middle-triple" id="column-triple">
+        <div class="triple-info-inner">
             <zero-md src="{{ include.file_middle }}"></zero-md>
         </div>
   </div>
-  <div class="right-triple" id="column-triple" style="background-color: white">
-        <div style="position: relative; padding: 20px; height: 100%; text-align: center; border: 2px solid black;">
+  <div class="right-triple" id="column-triple">
+        <div class="triple-info-inner">
             <zero-md src="{{ include.file_right }}"></zero-md>
         </div>
   </div>
