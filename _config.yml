@@ -13,37 +13,28 @@ includes_dir: _includes/_theme
 nav:
   item1:
     title: Nav 1
-    url:
-    subitem1:
-      title:
-      url:
-      desc:
-    subitem2:
-      title:
-      url:
-      desc:
-    subitem3:
-      title:
-      url:
-      desc:
+    url: https://google.com
+    subitem1: 
+      title: Test 1
+      url: https://google.com
+      desc: blabla
+    subitem2: 
+      title: Test 2
+      url: https://google.com
+      desc: blabla
   item2:
     title: Nav 2
-    url:
-    subitem1:
-      title:
-      url:
-      desc:
-    subitem2:
-      title:
-      url:
-      desc:
-    subitem3:
-      title:
-      url:
-      desc:
+    subitem1: 
+      title: Test 1
+      url: https://google.com
+      desc: blabla
+    subitem2: 
+      title: Test 2
+      url: https://google.com
+      desc: blabla
   item3:
     title: Nav 3
-    url: baidu.com
+    url: https://google.com
 
 email:
 github:

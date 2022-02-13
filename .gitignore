@@ -1,4 +1,6 @@
+# local jekyll files
 _site
 .sass-cache
 node_modules
 .DS_STORE
+.jekyll-metadata
