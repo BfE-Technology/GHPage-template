@@ -11,3 +11,13 @@ services:
     ports:
       - '4000:4000'
       - '35729:35729'
+  
+  # storybook:
+  #   image: storybook:6.4.19
+  #   volumes:
+  #     - './_includes/_theme:/app/src/_includes'
+  #     - './_layouts/_theme:/app/src/_layouts'
+  #   environment:
+  #     - HEAD_HTML=/app/src/_includes/_theme/head.html
+  #   ports:
+  #     - '4001:6006'
