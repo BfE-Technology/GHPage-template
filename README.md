@@ -8,8 +8,8 @@ TODO: Delete this and the text above, and describe your gem
 
 
 ## Documentation
-- [Setup and Installation](docs/setup.md)
-- [Customisation (Variables, Assets and Layout)](docs/customisation.md)
+- [Setup and Installation](_docs/setup.md)
+- [Customisation (Variables, Assets and Layout)](_docs/customisation.md)
 
 ## Contributing
 
